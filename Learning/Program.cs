@@ -53,6 +53,24 @@ while (number != 0)
         case 15:
             Topic15.Run();
             break;
+        case 16:
+            Topic16.Run();
+            break;
+        case 17:
+            Topic17.Run();
+            break;
+        case 18:
+            Topic18.Run();
+            break;
+        case 19:
+            Topic19.Run();
+            break;
+        case 20:
+            Topic20.Run();
+            break;
+        case 21:
+            Topic21.Run();
+            break;
         default:
             Console.WriteLine("Provided number is incorrect.");
             break;
@@ -62,7 +80,6 @@ while (number != 0)
     Menu();
     
 }
-Environment.Exit(1);
 void Menu()
 {
     Console.WriteLine("1 - Topic 1");
@@ -80,6 +97,12 @@ void Menu()
     Console.WriteLine("13 - Topic 13");
     Console.WriteLine("14 - Topic 14");
     Console.WriteLine("15 - Topic 15");
+    Console.WriteLine("16 - Topic 16");
+    Console.WriteLine("17 - Topic 17");
+    Console.WriteLine("18 - Topic 18");
+    Console.WriteLine("19 - Topic 19");
+    Console.WriteLine("20 - Topic 20");
+    Console.WriteLine("21 - Topic 21");
     Console.WriteLine("0 - End");
 
     string input = Console.ReadLine();
